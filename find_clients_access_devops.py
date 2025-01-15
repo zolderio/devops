@@ -10,8 +10,8 @@ def refresh_token_and_check_devops(client_id: str) -> bool:
     Returns True if the client has DevOps access
     """
     auth_file = os.path.expanduser('.roadtools_auth')
-    org = 'acidburn0873'
-    project = 'test'
+    org = '' # fill out your organization name
+    project = '' # fill out your project name
     
     # Run roadtx command
     refresh_command = [
