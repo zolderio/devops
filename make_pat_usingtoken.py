@@ -3,7 +3,7 @@ import json
 from datetime import datetime, timedelta
 
 
-organization = "acidburn0873"  # Replace with your organization name
+organization = ""  # Replace with your organization name
 url = f"https://vssps.dev.azure.com/{organization}/_apis/tokens/pats?api-version=7.1-preview.1"
 valid_to = (datetime.utcnow() + timedelta(days=30)).isoformat() + 'Z'
 
